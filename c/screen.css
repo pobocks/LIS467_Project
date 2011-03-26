@@ -1,0 +1,15 @@
+body { 
+       /* font-size:62.5%; */
+ }
+header { position:relative; }
+nav#primary-nav ul li { display:inline;list-style-type:none;float:left;margin-right:1em;background-color:#e8e8e8;padding:0.5em;  }
+footer { 
+         position:absolute;
+         width:100%;
+         bottom:0px;
+         background-color:blue;
+         color:yellow;
+         text-align:center;
+}
+
+#function-links { height:100px;width:400px;background-color:purple;float:right;content:'.';color:white;}
