@@ -2,7 +2,9 @@ body {
        /* font-size:62.5%; */
  }
 header { position:relative; }
-nav#primary-nav ul li { display:inline;list-style-type:none;float:left;margin-right:1em;background-color:#e8e8e8;padding:0.5em;  }
+
+
+nav#primary-nav ul li { display:inline;list-style-type:none;float:left;margin-right:1em;background-color: #aed673; color: black; font-family: georgia, serif;padding:0.5em;  }
 footer { 
          position:absolute;
          width:100%;
@@ -12,4 +14,33 @@ footer {
          text-align:center;
 }
 
-#function-links { height:100px;width:400px;background-color:purple;float:right;content:'.';color:white;}
+#function-links { height:100px;width:400px;background-color:#aed673;font-family: georgia, serif;float:right;content:'.';color:black;}
+
+
+#content{
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #f5fcf1;
+}
+
+#hours{
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #f5fcf1;
+}
+
+#directions{
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #f5fcf1;
+}
+
+#google-map{
+         background-color: #0b6110b;
+}
+
+#address{
+}
+
+
+#contact{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
