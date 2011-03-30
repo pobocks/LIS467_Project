@@ -1,46 +1,144 @@
+html, body { height:100%; }
+
+#non-footer { min-height: 100%;padding:0;margin:0;}
+
 body { 
-       /* font-size:62.5%; */
+       margin:0;
+       padding:0;
+       font-size:62.5%;
+       font-family: Helvetica, Arial, sans-serif;
  }
-header { position:relative; }
 
+header {
+         margin:0 auto;
+         margin-bottom:0;
+         padding-bottom:0.3em;
+         width:80%; 
+         position:relative;
+         display:block;
+         clear:both;
+         font-size:2em;
+      	 background-color: #0b610b; }
 
-nav#primary-nav ul li { display:inline;list-style-type:none;float:left;margin-right:1em;background-color: #aed673; color: black; font-family: georgia, serif;padding:0.5em;  }
+header h1#site-title { 
+                      font-size: 2em;
+ }
+header h2#site-subtitle { 
+                          display:inline; 
+                          }
+
+nav#primary-nav {
+                  width:80%;
+                  margin:0 auto;
+                  margin-bottom: 1em;
+}
+
+nav#primary-nav ul li { 
+display: inline-block;
+margin-right:0em;
+background-color: #aed673; 
+font-family: Georgia, serif;
+border-bottom:1px black dashed;
+border-left:1px black dashed;
+border-right:1px black dashed;
+padding-top:0;
+padding-left:0.3em;
+padding-right:0.3em; 
+margin-top:0;
+font-size: 1.8em;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+
+ }
+
 footer { 
-         position:absolute;
          width:100%;
-         bottom:0px;
+         margin:0;
+         padding:0;
          background-color:blue;
          color:yellow;
          text-align:center;
+         clear:both;
+         font-size:1.6em;
+         position:relative;
+         height: 9em;
+         margin-top: -9em;
+
 }
 
-#function-links { height:100px;width:400px;background-color:#aed673;font-family: georgia, serif;float:right;content:'.';color:black;}
+#function-links { 
+                  font-family: Georgia, serif;
+                  color:black; 
+                  font-size: 0.6em;
+                  list-style-type:none;
+                  display:inline;
+    }
+#function-links li { display:inline;
+background-color:#aed673;
+margin-right:0.1em;
+ }
 
 
 #content{
-	font-family: Helvetica, Arial, sans-serif;
-	background-color: #f5fcf1;
+        position:relative;
+        clear:both;
+        padding-bottom:8em;
+	
 }
 
 #hours{
-	font-family: Helvetica, Arial, sans-serif;
-	background-color: #f5fcf1;
+        width:30%;
+        font-size:1.6em;
+        float:left;
+	line-height: 2em;
+	background-color: #f5fcf1; 
 }
 
 #directions{
-	font-family: Helvetica, Arial, sans-serif;
-	background-color: #f5fcf1;
+             font-size:1.6em;
+             margin-left:33%;
+             width:30%;
+             background-color: #f5fcf1;
+         
 }
 
 #google-map{
-         background-color: #0b6110b;
+	background-color: #0b610b;
+        overflow:none;
 }
 
 #address{
+	 background-color: #f5fcf1;
 }
 
 
 #contact{
-	font-family: Helvetica, Arial, sans-serif;
+        font-size: 1.6em;
+	background-color: #f5fcf1;
+	line-height: 1.5em;
+        width: 30%;
+        float:right;
+
 }
 
+a:link {
+    
+    outline: none;
+    color: #0000FF;
+    
+}
+a:visited {
+    outline: none;
+    outline-style:none;
+    color: #6e0000;
+  
+}
+a:hover {
+   outline: none;
+    color: #00FF00;
+  }
+
+#google-map iframe { 
+                     width:98%;
+                     margin-left:1%;
+                     margin-top:0.3em;}
