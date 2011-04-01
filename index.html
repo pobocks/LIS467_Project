@@ -5,61 +5,110 @@
 <link rel="stylesheet" media="screen" href="c/reset.css" />
 <link rel="stylesheet" media="screen" href="c/screen.css" />
 <title>T. B. Scott Library</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 
 <body>
 <div id="non-footer">
   <header>
   <ul id="function-links">
-    <li>Contacts/Hours/Directions</li>
+    <li>Hours/Directions/Contact Us</li>
     <li>Get a Library Card</li>
     <li>Calendar</li>
     <li>Reading Recommendations</li>
   </ul> <!-- end function-links -->
-  <h1 id="site-title">T. B. Scott Free Library</h1>
-  <h2 id="site-subtitle">Contact Info, Hours, and Directions</h2>
+  <hgroup><h1 id="site-title">T. B. Scott Free Library</h1>
+  <h2 id="site-subtitle">Contact Info, Hours, and Directions</h2></hgroup>
   </header>
   <nav id="primary-nav">
   <ul>
     <li>Home</li>
-    <li>Find Books/Music/Movies</li>
-    <li>My Services</li>
-    <li>Youth/Family</li>
-    <li>Events</li>
-    <li>Research</li>
-    <li>About Us</li>
+    <li>Find Books/Music/Movies
+        <ul>
+	  <li>Catalog</li>
+	  <li>e-Books</le>
+	  <li>Borrow from Other Libraries</li>
+	  <li>Magazines &amp; Newspapers</li>
+	  <li>Reading Recommendations</li>
+	</ul>
+      </li>
+    <li>My Services
+      <ul>
+	<li>Get a Library Card</li>
+	<li>Senior Services</li>
+	<li>Reserve Meeting Rooms</li>
+      </ul>
+    </li>
+    <li>Youth/Family
+    <ul>
+      <li>Teens</li>
+      <li>Children &amp; Families</li>
+      <li>Children's Storytime</li>
+    </ul>
+    </li>
+    <li>Events
+    <ul>
+      <li>Calendar</li>
+      <li>Author Readings</li>
+      <li>Community Artshare</li>
+      <li>Children's Storytime</li>
+    </ul>
+    </li>
+    <li>Research
+    <ul>
+      <li>Ask a Librarian</li>
+      <li>Genealogy &amp; Local History</li>
+      <li>Health Resources</li>
+      <li>Government Information</li>
+      <li>Financial Resources</li>
+      <li>Career Resources</li>
+    </ul>
+    </li>
+    <li class="current">About Us
+    <ul>
+      <li>Library History</li>
+      <li>People</li>
+      <li>Jobs</li>
+      <li>Volunteer!</li>
+      <li>Friends of the Library</li>
+      <li>Memorials and Donations</li>
+      <li class="current">Hours/Directions/Contact Us</li>
+    </ul>
+    </li>
   </ul>
   </nav>
     <div id="content">
 <!-- Note for CSS Layout - No margin and padding on the layout elements as much as possible - do that in the internals, so we can use % sizing -->
 
 <section id="hours">
-<h2>Hours</h2>
-<h3>Regular hours:</h3>
+<h2>Library Hours</h2>
+<h3>General Hours:</h3>
 <ul>
-<li><em>Mon - Thurs:</em> 9:30am - 8pm</li>
-<li><em>Friday:</em> 9:30am- 6pm</li>
-<li><em>Saturday:</em> 9:30am - 4pm</li>
-<li><em>Sun:</em> Noon - 4pm</li>
+<li><em>Mon - Thurs</em> : 9:30 am - 8 pm</li>
+<li><em>Friday</em> : 9:30 am - 6 pm</li>
+<li><em>Saturday</em> : 9:30 am - 4 pm</li>
+<li><em>Sunday</em> : Noon - 4 pm</li>
 </ul>
 
-<h3>T.B. Scott Library will be closed:</h3>
+<h3>T. B. Scott will be closed:</h3>
 <p>January 1-2, April 24, May 30, July 4, September 5, November 23 at 5pm and 24, December 23 and 26.</p>
 
 
 <h3>Summer Hours:</h3>
 <p>Summer hours begin May 27, 2011.</p>
 <ul>
-<li><em>Mon - Thurs:</em> 9:30am - 8pm</li>
-<li><em>Friday:</em> 9:30am- 5pm</li>
-<li><em>Saturday:</em> 9:30am - 1pm</li>
-<li><em>Sunday:</em> Closed</li>
+<li><em>Mon - Thurs</em> : 9:30 am - 8 pm</li>
+<li><em>Friday</em> : 9:30 am - 5 pm</li>
+<li><em>Saturday</em> : 9:30 am - 1 pm</li>
+<li><em>Sunday</em> : Closed</li>
 </ul>
 </section> <!-- end hours -->
 
 <section id="contact">
-<h2>Library Staff</h2>
-<ul>
+<h2>Contact Us</h2>
+<ul id="staff-list">
 <li><strong>Director:</strong> Stacy Stevens <a href="mailto:stevens@wvls.lib.wi.us"> stevens@wvls.lib.wi.us</a></li>
 <li><strong>Outreach Services to seniors & the homebound:</strong> Sandra Lussenhop <a href="mailto:sluss@wvls.lib.wi.us">sluss@wvls.lib.wi.us </a> (or call 715-536-7191)</li>
 <li><strong>Asst. Director, Head of Adult Dept:</strong> Don Litzer <a href="mailto:dlitzer@wvls.lib.wi.us">dlitzer@wvls.lib.wi.us</a> </li>
@@ -69,12 +118,11 @@
 <li><strong>Bookkeeper:</strong> Susan Bauer <a href="mailto:sbauer@wvls.lib.wi.us">sbauer@wvls.lib.wi.us</a> </li>
 <li><strong>Maintenance Supervisor:</strong> Michael Schroeder <a href="mschroed53@hotmail.com">mschroed53@hotmail.com</a> </li>
 </ul>
-
 </section> <!-- end contact -->
 
 <section id="directions">
-<h2>Map &amp; Directions</h2>
-        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;source=embed&amp;msa=0&amp;msid=210436988596871562822.00049fcf01389331d36d9&amp;ll=45.198248,-89.68689&amp;spn=0.042338,0.072956&amp;z=13&amp;iwloc=lyrftr:m,5706600243674487221,45.181311,-89.702682&amp;output=embed"></iframe><br /><p><small>View <a href="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;source=embed&amp;msa=0&amp;msid=210436988596871562822.00049fcf01389331d36d9&amp;ll=45.196434,-89.688091&amp;spn=0.042338,0.072956&amp;z=13&amp;iwloc=lyrftr:m,5706600243674487221,45.181311,-89.702682" style="color:#0000FF;text-align:left">T B Scott Free Library</a> in a larger map</small></p>
+<h2>Map and Directions</h2>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=106+West+First+Street+Merrill,+WI+54452&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=42.987658,96.152344&amp;ie=UTF8&amp;hq=&amp;hnear=106+1st+St,+Merrill,+Wisconsin+54452&amp;ll=45.184033,-89.701653&amp;spn=0.025711,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><p>View <a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=106+West+First+Street+Merrill,+WI+54452&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=42.987658,96.152344&amp;ie=UTF8&amp;hq=&amp;hnear=106+1st+St,+Merrill,+Wisconsin+54452&amp;ll=45.184033,-89.701653&amp;spn=0.025711,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">T B Scott Free Library</a> in a larger map</p>
 <p>Get directions from wherever you are!</p>
 <form action="http://maps.google.com/maps"  method="get">
 Where are you right now?:
@@ -82,11 +130,7 @@ Where are you right now?:
 <input type="hidden" name="daddr" value="106 W. First St., Merrill, WI 54452" />
 <input type="submit" value="Go!" />
 </form>
-<!--
-<h3>Address</h3>
-<p>T.B. Scott Library<br /> 106 W. First St.<br /> Merrill, WI 54452</p>
--->
-      </section> <!-- end directions -->
+</section> <!-- end directions -->
 
     </div> <!-- end content -->
 </div> <!-- end non-footer -->

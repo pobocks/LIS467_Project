@@ -10,7 +10,7 @@ body {
        margin:0;
        padding:0;
        font-size:62.5%;
-       background: #fffdda;
+       background: #F0FFF0;
        font-family: Helvetica, Arial, sans-serif;
  }
 
@@ -21,7 +21,7 @@ header {
          position:relative;
          display:block;
          clear:both;
-      	 background-color: #99CC66;
+      	 background-color: #90B890;
       	 color:#086108;
          background-image: url("logoimage.png");
          background-position: left top;
@@ -29,17 +29,22 @@ header {
          min-height: 130px;
          padding-bottom: 1em;
          width: 96%;
+         border-bottom-right-radius: 7px;
+         -moz-border-radius-bottomright: 7px;
+         -webkit-bottom-right-radius:7px;
  }
 
 
 header h1#site-title { 
-                padding-left: 140px;
-                font-size: 5em;
+                       padding-left: 140px;
+                       font-size: 5em;
+                       color:#450b00;
  }
 header h2#site-subtitle { 
                           display:inline;
                           padding-left:140px;
                           font-size:2em;
+                          color:#6E0000;
                           }
 
 nav#primary-nav {
@@ -51,28 +56,82 @@ nav#primary-nav {
 nav#primary-nav ul li { 
 display: inline-block;
 margin-right:0em;
-background-color: #086108;
-color:#AED673; 
+background-color: #006600;
+color:#CCCC99; 
 font-family: Georgia, serif;
-border-bottom:1px black dashed;
-border-left:1px black dashed;
-border-right:1px black dashed;
-padding-top:0;
-padding-left:0.3em;
-padding-right:0.3em;
+padding-top:0.2em;
+padding-left:0.6em;
+padding-right:0.6em;
+padding-bottom:0.3em;
 margin-top:0;
+margin-bottom:0.1em;
 font-size: 1.8em;
 border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius:5px; 
+-webkit-border-bottom-right-radius:5px; 
+-moz-border-radius-bottomleft:5px;
+-moz-border-radius-bottomright:5px;
 
+ }
+nav#primary-nav ul li:hover { 
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius:0px; 
+-webkit-border-bottom-right-radius:0px; 
+-moz-border-radius-bottomleft:0px;
+-moz-border-radius-bottomright:0px;
+  }
+nav#primary-nav ul li.current { 
+                                color: #006600;
+                                background-color:#CCCC99; 
+
+ }
+
+nav#primary-nav ul li ul { display:none; }
+nav#primary-nav li:hover ul { display:block;
+                              position:absolute;
+                              margin-left:-0.6em;
+                              margin-top:0.4em;
+                              padding:0;
+                              background: #F0FFF0;
+                              z-index: 9001;
+                             }
+nav#primary-nav li:hover ul li { font-size: 1em;
+                                 display:block;
+                                 border-bottom-left-radius: 0px;
+                                 border-bottom-right-radius: 0px;
+                                 webkit-border-bottom-left-radius:0px; 
+                                 webkit-border-bottom-right-radius:0px; 
+                                 moz-border-radius-bottomleft:0px;
+                                 moz-border-radius-bottomright:0px;
+                                 }
+nav#primary-nav li:hover ul li:last-child { 
+                                      border-bottom-left-radius: 5px;
+                                      border-bottom-right-radius: 5px;
+                                      webkit-border-bottom-left-radius:5px; 
+                                      webkit-border-bottom-right-radius:5px; 
+                                      moz-border-radius-bottomleft:5px;
+                                      moz-border-radius-bottomright:5px;
+
+                                      }
+
+section h2 { 
+             margin-bottom: 0.2em;
+             color:#6E0000;
+             font-size:1.5em;
+}
+
+section h3 { 
+             font-size:1em;
+             margin-bottom: 0.3em;
  }
 
 footer { 
          width:96%;
          margin:0 auto;
          padding:0;
-         background-color:#99CC66;
-         color:#086108;
+         background-color:#90B890;
          text-align:center;
          font-family: Georgia, serif;
          clear:both;
@@ -80,6 +139,12 @@ footer {
          padding-top:1.5em;
          height: 6.5em;
          margin-top: -8em;
+         border-top-right-radius: 7px;
+         border-top-left-radius: 7px;
+         -webkit-border-top-left-radius:7px; 
+         -webkit-border-top-right-radius:7px; 
+         -moz-border-radius-topleft:7px;
+         -moz-border-radius-topright:7px;
 
 }
 
@@ -97,7 +162,7 @@ font-size:1.6em;
     }
 #function-links li { display:inline;
                      float:right;
-                     background-color:#e4de47;
+                     background-color:#90B890;
                      margin-right:1em;
 
  }
@@ -107,8 +172,13 @@ font-size:1.6em;
         position:relative;
         clear:both;
         padding-bottom:8em;
-	
 }
+
+#content:after { 
+                 content: '.';
+                 display:none;
+                 clear:both;
+ }
 
 section p { 
             line-height:1.3em;
@@ -120,51 +190,54 @@ section p {
         margin-left:5%;
         font-size:1.6em;
         float:left;
-	line-height: 2em;
-	background-color: #f5fcf1; 
 }
 
-#hours ul { margin-bottom:1em; }
+#hours ul { 
+              margin-bottom:1em; }
 #hours ul li { 
+               margin-bottom:0.3em;
                line-height:1.3em;
  }
 
 #directions{
+             float:left;
              font-size:1.6em;
-             margin-left:33%;
-             width:35%;
-             background-color: #f5fcf1;
-         
+             margin-left:2%;
+             width:33%;
+             background-color:  #F0FFF0;
 }
-
-#directions h3 { margin-bottom: 1em;  }
 
 #directions form { margin-bottom:1em; }
 
 #contact{
-        font-size: 1.6em;
-	background-color: #f5fcf1;
-	line-height: 1.5em;
-        width: 25%;
-        float:right;
-        margin-right:5%;
+          font-size: 1.6em;
+          background-color:  #F0FFF0;
+          width: 25%;
+          float:right;
+          margin-right:5%;
 }
+
+
+#contact ul li { 
+                 margin-bottom:1.3em;
+                 line-height: 1.3em;
+ }
 
 a:link {
     
     outline: none;
-    color: #0000FF;
+    /* color: #996633; */
     
 }
 a:visited {
     outline: none;
     outline-style:none;
-    color: #6e0000;
+    /* color: #6e0000; */
   
 }
 a:hover {
    outline: none;
-    color: #00FF00;
+/*    color: #086108; */
   }
 
 iframe { 
