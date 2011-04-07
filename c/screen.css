@@ -1,3 +1,6 @@
+/***********************
+ * Generic Page Styles *
+ ***********************/
 html, body { 
              height:100%; 
 }
@@ -12,23 +15,26 @@ body {
        font-size:62.5%;
        background: white;
        font-family: Helvetica, Arial, sans-serif;
- }
+}
 
-#function-links { height:1.5em;margin-right:5%; }
-
+#function-links { height:1.5em;
+                  margin-right:2%; 
+}
 
 #function-links ul { 
                   font-family: Georgia, serif;
                   color:black; 
-                  font-size: 1.2em;
+                  font-size: 1.3em;
                   list-style-type:none;
                   display:block;
-    }
+}
+
 #function-links ul li { display:inline;
                         float:right;
                         color: darkgreen;
+                        padding-top:0.1em;
                         margin-right:1em;
-                        }
+}
 
 
 header {
@@ -52,19 +58,19 @@ header {
          border-bottom-left-radius: 0px;
          -moz-border-radius-bottomleft: 0px;
          -webkit-bottom-left-radius:0px;
- }
-
+}
 
 header h1#site-title { 
-                       padding-left: 160px;
+                       padding-left: 150px;
                        font-size: 5em;
-                   }
+}
+
 header h2#site-subtitle { 
                           display:inline;
-                          padding-left:160px;
+                          padding-left:150px;
                           font-size:2em;
                           
-                          }
+}
 
 nav#primary-nav {
                   width:96%;
@@ -73,38 +79,39 @@ nav#primary-nav {
 }
 
 nav#primary-nav ul li { 
-display: inline-block;
-margin-right:0em;
-background-color: #f6d674;
-color:black; 
-font-family: Georgia, serif;
-padding-top:0.2em;
-padding-left:0.6em;
-padding-right:0.6em;
-padding-bottom:0.3em;
-margin-top:0;
-font-size: 1.8em;
-border-bottom-left-radius: 5px;
-border-bottom-right-radius: 5px;
--webkit-border-bottom-left-radius:5px; 
--webkit-border-bottom-right-radius:5px; 
--moz-border-radius-bottomleft:5px;
--moz-border-radius-bottomright:5px;
+                        display: inline-block;
+                        margin-right:0em;
+                        background-color: #f6d674;
+                        color:black; 
+                        font-family: Georgia, serif;
+                        padding-top:0.2em;
+                        padding-left:0.6em;
+                        padding-right:0.6em;
+                        padding-bottom:0.3em;
+                        margin-top:0;
+                        font-size: 1.8em;
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        webkit-border-bottom-left-radius:5px; 
+                        webkit-border-bottom-right-radius:5px; 
+                        moz-border-radius-bottomleft:5px;
+                        moz-border-radius-bottomright:5px;
+}
 
- }
 nav#primary-nav ul li:hover { 
-border-bottom-left-radius: 0px;
-border-bottom-right-radius: 0px;
--webkit-border-bottom-left-radius:0px; 
--webkit-border-bottom-right-radius:0px; 
--moz-border-radius-bottomleft:0px;
--moz-border-radius-bottomright:0px;
-  }
+                              border-bottom-left-radius: 0px;
+                              border-bottom-right-radius: 0px;
+                              webkit-border-bottom-left-radius:0px; 
+                              webkit-border-bottom-right-radius:0px; 
+                              moz-border-radius-bottomleft:0px;
+                              moz-border-radius-bottomright:0px;
+}
+
 nav#primary-nav ul li.current { 
                                 color: white;
                                 background-color:maroon; 
 
- }
+}
 
 nav#primary-nav ul li ul { display:none;
                            border-radius: 5px;
@@ -136,14 +143,30 @@ nav#primary-nav li:hover ul li:first-child {
                                             
 }
 nav#primary-nav li:hover ul li:last-child { 
-                                      border-bottom-left-radius: 5px;
-                                      border-bottom-right-radius: 5px;
-                                      webkit-border-bottom-left-radius:5px; 
-                                      webkit-border-bottom-right-radius:5px; 
-                                      moz-border-radius-bottomleft:5px;
-                                      moz-border-radius-bottomright:5px;
+                                            border-bottom-left-radius: 5px;
+                                            border-bottom-right-radius: 5px;
+                                            webkit-border-bottom-left-radius:5px; 
+                                            webkit-border-bottom-right-radius:5px; 
+                                            moz-border-radius-bottomleft:5px;
+                                            moz-border-radius-bottomright:5px;
+}
 
-                                      }
+
+#content{
+          position:relative;
+          clear:both;
+          padding-bottom:8em;
+}
+
+#content:after { 
+                 content: '.';
+                 display:none;
+                 clear:both;
+ }
+
+section {         
+          font-size:1.4em;
+}
 
 section h2 { 
              margin-bottom: 0.2em;
@@ -154,6 +177,11 @@ section h2 {
 section h3 { 
              font-size:1em;
              margin-bottom: 0.3em;
+}
+
+section p { 
+            line-height:1.3em;
+            margin-bottom:1em;
  }
 
 footer { 
@@ -166,8 +194,8 @@ footer {
          font-family: Georgia, serif;
          clear:both;
          position:relative;
-         height: 10.5em;
-         margin-top: -11em;
+         height: 7.5em;
+         margin-top: -8em;
          margin-bottom: 0.5em;
          border-radius: 7px;
          -webkit-border-radius:7px; 
@@ -175,36 +203,24 @@ footer {
 }
 
 footer p { 
-font-size:1.6em;
-padding-top:0.8em;
+           font-size:1.6em;
+           padding-top:0.8em;
  }
 
-#content{
-        position:relative;
-        clear:both;
-        padding-bottom:8em;
-}
 
-#content:after { 
-                 content: '.';
-                 display:none;
-                 clear:both;
- }
-
-section p { 
-            line-height:1.3em;
-            margin-bottom:1em;
- }
+/**********************************************************
+ * Styles for: Hours/Directions/Contact Us -> contact.php *
+ **********************************************************/
 
 #hours{
         width:25%;
         margin-left:5%;
-        font-size:1.4em;
         float:left;
 }
 
 #hours ul { 
-              margin-bottom:1em; }
+              margin-bottom:1em; 
+}
 #hours ul li { 
                margin-bottom:0.3em;
                line-height:1.3em;
@@ -212,17 +228,16 @@ section p {
 
 #directions{
              float:left;
-             font-size:1.4em;
              margin-left:2%;
              width:33%;
              background-color: white;
 }
 
-#directions form { margin-bottom:1em; }
+#directions form { 
+                   margin-bottom:1em; 
+}
 
 #contact{
-          font-size: 1.4em;
-          background-color: white;
           width: 25%;
           float:right;
           margin-right:5%;
@@ -234,25 +249,10 @@ section p {
                  line-height: 1.3em;
  }
 
-a:link {
-    
-    outline: none;
-    /* color: #996633; */
-    
-}
-a:visited {
-    outline: none;
-    outline-style:none;
-    /* color: #6e0000; */
-  
-}
-a:hover {
-   outline: none;
-/*    color: #086108; */
-  }
 
-iframe { 
+iframe#googlemap { 
                      width:98%;
                      margin-left:1%;
                      margin-top:0.3em;
-                     margin-bottom:1em;}
+                     margin-bottom:1em;
+}
