@@ -14,7 +14,22 @@ body {
        font-family: Helvetica, Arial, sans-serif;
  }
 
-#header-shim { height:0.5em; }
+#function-links { height:1.5em;margin-right:5%; }
+
+
+#function-links ul { 
+                  font-family: Georgia, serif;
+                  color:black; 
+                  font-size: 1.2em;
+                  list-style-type:none;
+                  display:block;
+    }
+#function-links ul li { display:inline;
+                        float:right;
+                        color: darkgreen;
+                        margin-right:1em;
+                        }
+
 
 header {
          margin:0 auto;
@@ -28,8 +43,8 @@ header {
          background-image: url("logoimage.png");
          background-position: left top;
          background-repeat: no-repeat;
-         min-height: 130px;
-         padding-bottom: 1em;
+         padding-bottom: 2em;
+         padding-top:1em;
          width: 96%;
          border-radius: 7px;
          -moz-border-radius: 7px;
@@ -41,12 +56,12 @@ header {
 
 
 header h1#site-title { 
-                       padding-left: 140px;
+                       padding-left: 160px;
                        font-size: 5em;
                    }
 header h2#site-subtitle { 
                           display:inline;
-                          padding-left:140px;
+                          padding-left:160px;
                           font-size:2em;
                           
                           }
@@ -163,22 +178,6 @@ footer p {
 font-size:1.6em;
 padding-top:0.8em;
  }
-
-#function-links { 
-                  font-family: Georgia, serif;
-                  color:black; 
-                  font-size: 1.2em;
-                  list-style-type:none;
-                  display:block;
-                  padding-bottom:3em;
-    }
-#function-links li { display:inline;
-                     float:right;
-                     background-color:#90B890;
-                     margin-right:1em;
-
- }
-
 
 #content{
         position:relative;

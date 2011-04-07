@@ -12,14 +12,15 @@
 
 <body>
 <div id="non-footer">
-<div id="header-shim"></div>   
-  <header>
-<ul id="function-links">
+<div id="function-links">
+<ul>
    <li>Hours/Directions/Contact Us</li>
    <li>Get a Library Card</li>
    <li>Calendar</li>
    <li>Home</li>
-   </ul> <!-- end function-links -->
+   </ul> 
+</div> <!-- end function-links -->  
+  <header>
   <hgroup><h1 id="site-title">T. B. Scott Free Library</h1>
    <h2 id="site-subtitle"><?php echo $title; ?></h2></hgroup>
   </header>
