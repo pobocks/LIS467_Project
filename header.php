@@ -13,6 +13,7 @@
 <body>
 <div id="non-footer">
 <div id="function-links">
+
 <ul>
    <li>Hours/Directions/Contact Us</li>
    <li>Get a Library Card</li>
@@ -25,59 +26,65 @@
    <h2 id="site-subtitle"><?php echo $title; ?></h2></hgroup>
   </header>
   <nav id="primary-nav">
-  <ul>
-    <li>Books/Music/Movies
-        <ul>
-	  <li>Catalog</li>
-	  <li>e-Books</li>
-	  <li>Borrow from Other Libraries</li>
-	  <li>Magazines &amp; Newspapers</li>
-	  <li>Reading Recommendations</li>
-	</ul>
-      </li>
-    <li>My Services
-      <ul>
-	<li>Get a Library Card</li>
-	<li>Senior Services</li>
-	<li>Reserve Meeting Rooms</li>
-      </ul>
-    </li>
-    <li>Youth/Family
-    <ul>
-      <li>Teens</li>
-      <li>Children &amp; Families</li>
-      <li>Children's Storytime</li>
-    </ul>
-    </li>
-    <li>Events
-    <ul>
-      <li>Calendar</li>
-      <li>Author Readings</li>
-      <li>Community Artshare</li>
-      <li>Children's Storytime</li>
-    </ul>
-    </li>
-    <li>Research
-    <ul>
-      <li>Ask a Librarian</li>
-      <li>Genealogy &amp; Local History</li>
-      <li>Health Resources</li>
-      <li>Government Information</li>
-      <li>Financial Resources</li>
-      <li>Career Resources</li>
-    </ul>
-    </li>
-    <li class="current">About Us
-    <ul>
-      <li>Library History</li>
-      <li>People</li>
-      <li>Jobs</li>
-      <li>Volunteer!</li>
-      <li>Friends of the Library</li>
-      <li>Memorials and Donations</li>
-      <li class="current">Hours/Directions/Contact Us</li>
-    </ul>
-    </li>
+   <ul>
+   <?php
+ 
+   $nav_structure = array('Books/Music/Movies' => array(
+				                        'Catalog' => 'http://vcat.wvls.lib.wi.us/ipac20/ipac.jsp?session=1M55DH3117252.23506&profile=mer--5&menu=search&ts=1255013119707#focus',
+							'e-Books' => '',
+							'Borrow from Other Libraries' => '',
+						        'Magazines &amp; Newspapers' => '',
+							'Reading Recommendations' => ''
+							),
+			  'My Services' => array(
+						 'Get a Library Card' => '',
+						 'Senior Services' => '',
+						 'Reserve Meeting Rooms' => ''
+						 ),
+			  'Youth/Family' => array(
+						  'Teens' => '',
+						  'Children &amp; Families' => '',
+						  'Children&apos;s Storytime' => ''
+						  ),
+			  'Events' => array(
+					    'Calendar' => 'calendar.php',
+					    'Author Readings' => '',
+					    'Community Artshare' => '',
+					    'Children&apos;s Storytime' => ''
+					    ),
+			  'Research' => array(
+					      'Ask a Librarian' => '',
+					      'Genealogy &amp; Local History' => '',
+					      'Health Resources' => '',
+					      'Government Information' => '',
+					      'Financial Resources' => '',
+					      'Career Resources' => ''
+					      ),
+			  'About Us' => array(
+					      'Library History' => '',
+					      'People' => '',
+					      'Jobs' => '',
+					      'Volunteer' => '',
+					      'Friends of the Library' => '',
+					      'Memorials and Donations' => '',
+					      'Hours/Directions/Contact Us' => 'hours_directions_contact.php'));
+
+foreach ($nav_structure as $category => $links){
+  echo '<li';
+  if ($category === $section) {
+    echo ' class="current" ';
+  }
+  echo ">$category<ul>\n";
+  foreach ($links as $text => $url){
+    echo '<li';
+    if ($url === $thispage){
+      echo ' class="current" ';
+    }
+    echo "><a href='$url'>$text</a></li>\n";
+  }
+  echo '</ul></li>';
+}
+?>
   </ul>
   </nav>
     <div id="content">
