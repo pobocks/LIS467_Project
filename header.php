@@ -62,7 +62,7 @@
 					      ),
 			  'About Us' => array(
 					      'Library History' => '',
-					      'People' => '',
+					      'People' => 'people.php',
 					      'Jobs' => '',
 					      'Volunteer' => '',
 					      'Friends of the Library' => '',
