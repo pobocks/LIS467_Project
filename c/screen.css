@@ -31,7 +31,7 @@ body {
 
 #function-links ul li{ display:inline;
                         float:right;
-                        color: darkgreen;
+                        color: green;
                         padding-top:0.1em;
                         margin-right:1em;
 }
@@ -131,7 +131,7 @@ nav#primary-nav li:hover ul { display:block;
                               margin-left:-0.6em;
                               margin-top:0.3em;]
                               padding:0;
-                              background: #F0FFF0;
+                              background: white;
                               z-index: 9001;
                              }
 nav#primary-nav li:hover ul li { 
@@ -147,7 +147,7 @@ nav#primary-nav li:hover ul li {
                                  -moz-border-radius-bottomright:0px;
                                  }
 
-nav#primary-nav li:hover ul li a { padding: 0.2em; }
+nav#primary-nav li:hover ul li a { padding: 0.5em; }
 
 nav#primary-nav li:hover ul li:hover { background-color: goldenrod;}
 
