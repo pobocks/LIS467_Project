@@ -129,7 +129,7 @@ nav#primary-nav ul li ul { display:none;
 nav#primary-nav li:hover ul { display:block;
                               position:absolute;
                               margin-left:-0.6em;
-                              margin-top:0.3em;]
+                              margin-top:0.3em;
                               padding:0;
                               background: white;
                               z-index: 9001;
@@ -138,7 +138,7 @@ nav#primary-nav li:hover ul li {
                                  padding:0;
                                  font-size: 1em;
                                  display:block;
-                                 border-top: dashed 1px grey;
+                                 border-top: dashed 1px gray;
                                  border-bottom-left-radius: 0px;
                                  border-bottom-right-radius: 0px;
                                  -webkit-border-bottom-left-radius:0px; 
@@ -149,7 +149,7 @@ nav#primary-nav li:hover ul li {
 
 nav#primary-nav li:hover ul li a { padding: 0.5em; }
 
-nav#primary-nav li:hover ul li:hover { background-color: goldenrod;}
+nav#primary-nav li:hover ul li:hover { background-color: #DAA520;}
 
 nav#primary-nav li:hover ul li.current a { color:white;}
 

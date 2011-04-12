@@ -87,7 +87,7 @@ Stacy Stevens
 <h3>Meetings</h3>
 <p><strong>Third Friday of the month at 9:45am in the Board Room.</strong> Open to the public. Join with others who support your public library! Assist with Book Sales &amp; other fundraising to help the library. LHelp publicize library events in the community by distributing flyers and posters.</p>
 <p><a href="">Become a Member!</a></p>
-</ul>
+
 
 
 
