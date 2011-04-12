@@ -28,7 +28,10 @@
   <nav id="primary-nav">
    <ul>
    <?php
- 
+
+   $currentFile = $_SERVER["PHP_SELF"];
+   $parts = explode('/', $currentFile);
+   $thispage = $parts[count($parts) - 1];
    $nav_structure = array('Books/Music/Movies' => array(
 				                        'Catalog' => 'http://vcat.wvls.lib.wi.us/ipac20/ipac.jsp?session=1M55DH3117252.23506&profile=mer--5&menu=search&ts=1255013119707#focus',
 							'e-Books' => '',
@@ -65,7 +68,7 @@
 					      'People' => 'people.php',
 					      'Jobs' => '',
 					      'Volunteer' => '',
-					      'Friends of the Library' => '',
+					      'Friends of the Library' => 'friends.php',
 					      'Memorials and Donations' => '',
 					      'Hours/Directions/Contact Us' => 'hours_directions_contact.php'));
 
@@ -75,15 +78,16 @@ foreach ($nav_structure as $category => $links){
     echo ' class="current" ';
   }
   echo ">$category<ul>\n";
-  foreach ($links as $text => $url){
-    echo '<li';
-    if ($url === $thispage){
-      echo ' class="current" ';
+        foreach ($links as $text => $url){
+	echo '<li';
+	if ($url === $thispage){
+	  echo ' class="current" ';
+	}
+	echo "><a href='$url'>$text</a></li>\n";
+      }
+  
+    echo '</ul></li>';
     }
-    echo "><a href='$url'>$text</a></li>\n";
-  }
-  echo '</ul></li>';
-}
 ?>
   </ul>
   </nav>

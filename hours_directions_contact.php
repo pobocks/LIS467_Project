@@ -1,7 +1,6 @@
 <?php 
 $title = 'Hours, Directions, and Contact Info';
 $section = 'About Us';
-$thispage = 'hours_directions_contact.php';
 include 'header.php'; ?>
 <section id="hours">
 <h2>Library Hours</h2>

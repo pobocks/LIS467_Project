@@ -194,7 +194,8 @@ section h2 {
 
 section h3 { 
              font-size:1em;
-             margin-bottom: 0.3em;
+             margin-bottom: 0.5em;
+             margin-top:0.5em;
 }
 
 section p { 
@@ -274,3 +275,65 @@ iframe#googlemap {
                      margin-top:0.3em;
                      margin-bottom:1em;
 }
+
+
+/*****************************************************
+ * Styles for: Friends of the Library -> friends.php *
+ *****************************************************/
+
+#membership{
+        width:25%;
+        margin-left:5%;
+        float:left;
+        background-color: #F1EDC2;
+}
+#membership div#paddington { 
+                             padding-left:2%;
+                             padding-right:2%;
+ }
+#membership ul { 
+              margin-bottom:1em; 
+              margin-left: 5%;
+}
+#membership ul li { 
+               margin-bottom:0.3em;
+               line-height:1.3em;
+               display:block;
+               clear:both;
+ }
+
+#announcement {
+             float:left;
+             margin-left:3%;
+             width:39%;
+             background-color: white;
+}
+
+#announcement p { 
+                  line-height: 150%;
+}
+
+#officers{
+          width: 20%;
+          float:right;
+          margin-right:5%;
+          line-height:130%;
+          color:#555555 ;
+}
+
+
+#officers ul li { 
+                 margin-bottom: 0.2em;
+                 line-height: 1.3em;
+ }
+	     
+.featureimg { 
+float:left;
+max-width:100%;
+border:0.2em solid black;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+
+
