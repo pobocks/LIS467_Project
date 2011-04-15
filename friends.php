@@ -44,7 +44,6 @@ Stacy Stevens
 
 
 <section id="membership">
-<div id="paddington">
 <h2>Membership Information</h2>
 
 <h3>Annual Dues</h3>
@@ -61,18 +60,17 @@ Stacy Stevens
 
 <h3>Upcoming Events</h3>
 <ul>
-<li><img src="i/book-club2.jpg" width="70" height="80" alt="book club meeting" class="featureimg" />
+<li><img src="i/book-club2.jpg" width="70" height="83" alt="book club meeting" class="featured-image" />
   <p><strong>Cover To Cover:</strong> A library sponsored book discussion group meets monthly on the third Thursday at 1:00 pm in the Community Roam of the Library.</p>
 </li>
 <li>
-<img src="i/perry.jpg" width="70" height="80" alt="author image" class="featureimg" />
+<img src="i/perry.jpg" width="80" height="68" alt="author" class="featured-image" />
   <p><strong>Meet an Author:</strong> Michael Perry,  humorist,  best selling author, and popular guest on Wisconsin Public Radio and Televsion will be coming to Merrill. The program will be at Parier Middle School on May 2nd. <a href="http://www.sneezingcow.com/" target="_blank">Visit his website!</a></p>
 </li>
 </ul>
 <h3>Past Events</h3>
   <p>March 8, 15, 22 (Tuesdays) 6:30pm. Joel Eldridge <strong>&quot;All About Trees: Selecting, Planting, and Maintaining&quot;.</strong></p>
 <p>Feb. 20 (Sunday) 1:00pm. Jane Deau<strong> "My Life's Journey,"</strong> a workshop devoted to capturing the essence of your loved ones thorugh journaling, photos, videos, and audio recordings.</p>
-</div> <!-- end paddington -->
 
 </section> <!-- end membership -->
 
@@ -92,10 +90,10 @@ Stacy Stevens
 
 
 <h3>Mission</h3>
-<img src="i/filler_image.jpg" width="300" height="150" alt="Friends of the Library picture" class="featureimg" />
+<img src="i/filler_image.jpg" width="300" height="130" alt="Friends of the Library picture" class="featured-image" />
 <p> The Friends of the T. B. Scott Merrill Public Library is a volunteer organization established to support the Merrill library in developing its facilities and services for the community, to encourage gifts and bequests to the library, and to stimulate support and use of the library.</p>
 <p> We promote knowledge of the function, services, resources and needs of the library - all the while enjoying the fellowship of the Library Friends.</p>
-<h2>Purpose</h2>
+<h3>Purpose</h3>
 <p>To promote the use of the T. B. Scott Library and appreciation of its value as a cultural and educational asset of the community. </P>
 
 </section> <!-- end announcement -->

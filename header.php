@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
+<link rel="icon" href="i/favicon.ico" />
 <link rel="stylesheet" media="screen" href="c/reset.css" />
 <link rel="stylesheet" media="screen" href="c/screen.css" />
    <title>T. B. Scott Library | <?php echo $title; ?></title>
@@ -40,8 +41,8 @@
 							'Reading Recommendations' => ''
 							),
 			  'My Services' => array(
-						 'Get a Library Card' => '',
-						 'Senior Services' => '',
+						 'Get a Library Card' => 'get_a_card.php',
+						 'Senior Services' => 'senior_services.php',
 						 'Reserve Meeting Rooms' => ''
 						 ),
 			  'Youth/Family' => array(
@@ -52,7 +53,7 @@
 			  'Events' => array(
 					    'Calendar' => 'calendar.php',
 					    'Author Readings' => '',
-					    'Community Artshare' => '',
+					    'Community Artshare' => 'community_artshare.php',
 					    'Children&apos;s Storytime' => ''
 					    ),
 			  'Research' => array(
@@ -64,7 +65,7 @@
 					      'Career Resources' => ''
 					      ),
 			  'About Us' => array(
-					      'Library History' => '',
+					      'Library History' => 'history.php',
 					      'People' => 'people.php',
 					      'Jobs' => '',
 					      'Volunteer' => '',
