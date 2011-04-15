@@ -93,10 +93,10 @@ nav#primary-nav ul li {
                         font-size: 1.8em;
                         border-bottom-left-radius: 5px;
                         border-bottom-right-radius: 5px;
-                        webkit-border-bottom-left-radius:5px; 
-                        webkit-border-bottom-right-radius:5px; 
-                        moz-border-radius-bottomleft:5px;
-                        moz-border-radius-bottomright:5px;
+                        -webkit-border-bottom-left-radius:5px; 
+                        -webkit-border-bottom-right-radius:5px; 
+                        -moz-border-radius-bottomleft:5px;
+                        -moz-border-radius-bottomright:5px;
 }
 
 nav#primary-nav ul li a { 
@@ -108,10 +108,10 @@ nav#primary-nav ul li a {
 nav#primary-nav ul li:hover { 
                               border-bottom-left-radius: 0px;
                               border-bottom-right-radius: 0px;
-                              webkit-border-bottom-left-radius:0px; 
-                              webkit-border-bottom-right-radius:0px; 
-                              moz-border-radius-bottomleft:0px;
-                              moz-border-radius-bottomright:0px;
+                              -webkit-border-bottom-left-radius:0px; 
+                              -webkit-border-bottom-right-radius:0px; 
+                              -moz-border-radius-bottomleft:0px;
+                              -moz-border-radius-bottomright:0px;
 }
 
 nav#primary-nav ul li.current {                     
