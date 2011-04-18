@@ -305,6 +305,19 @@ iframe#googlecal {
     margin-top:0.3em;
     margin-bottom:1em;
 }
+
+/*********************************
+ * Spread Across Jocelyn's Pages *
+ *********************************/
+
+.featured-image { 
+max-width:100%;
+border:0.2em solid black;
+margin-right: 1em;
+margin-bottom: 1em;
+height:auto;
+}
+
  
 /*****************************************************
  * Styles for: Friends of the Library -> friends.php *
@@ -360,17 +373,6 @@ iframe#googlecal {
                  line-height: 1.3em;
  }
 
-/*********************************
- * Spread Across Jocelyn's Pages *
- *********************************/
-
-.featured-image { 
-max-width:100%;
-border:0.2em solid black;
-margin-right: 1em;
-margin-bottom: 1em;
-height:auto;
-}
 
 /************************************************
  * Community Artshare -> community_artshare.php *
@@ -423,21 +425,59 @@ section#beyondbooks ul{
     margin-left: .7em;
 }
 
-/**********************************************************
- * Styles for: Library History -> contact.php *
- **********************************************************/
+/******************************************
+ * Author Readings -> author_readings.php *
+ ******************************************/
+
+
+
+section#contactforevent li{  
+                       line-height:130%; 
+    
+}
+
+
+section#wordsworthhearing blockquote{ 
+                                      color: #006400;
+                                      font-style:oblique;
+                                      line-height:200%;
+}
+
+
+#contactforevent{ 
+                  width:25% ;
+                  float:right;
+                  margin-left:2%;
+                  margin-right:3%;
+}
+
+
+#wordsworthhearing{  
+                    width:60%;
+                    float:left;
+                    line-height:170%;  
+                    margin-left:3%;
+                    margin-right:2%;
+                    padding-left: 2%;
+                    padding-right: 2%;
+                    background-color: #F1EDC2;         
+}
+
+/**********************************************
+ * Styles for: Library History -> history.php *
+ **********************************************/
 
                      
 #wrap {
-			float:left;
-             margin-left:3%;
-             width:60%;
+        float:left;
+        margin-left:3%;
+        width:60%;
 }
 
 #timelinelinks {
-			float:left;
-             margin-left:3%; 
-             margin-bottom:1%;
+                 float:left;
+                 margin-left:3%; 
+                 margin-bottom:1%;
 }
 
 
@@ -462,7 +502,7 @@ section#beyondbooks ul{
 }
 
 /**********************************************************
- * Styles for: Library Card -> contact.php *
+ * Styles for: Library Card -> get_a_card.php *
  **********************************************************/
 
 

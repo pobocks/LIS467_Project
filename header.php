@@ -52,7 +52,7 @@
 						  ),
 			  'Events' => array(
 					    'Calendar' => 'calendar.php',
-					    'Author Readings' => '',
+					    'Author Readings' => 'author_readings.php',
 					    'Community Artshare' => 'community_artshare.php',
 					    'Children&apos;s Storytime' => ''
 					    ),
