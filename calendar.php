@@ -5,18 +5,20 @@ include 'header.php'; ?>
 <section id="upcoming-events">
 <h2>Upcoming Events</h2>
 
-<h3>Test Event One</h3>
-<p>An event where I&apos;m testing whether my layout works.</p>
+  <h3>May 2, 7:00pm - Centennial Program</h3>
+  <p>Michael Perry, humorist, best selling author, and popular guest on Wisconsin Public Television and Radio. Program held at Prairie River Middle School.</p>
 
-<h3>Test Event Two</h3>
-<p>Additional testing events.  Varied in size, for the discriminating user.</p>
+  <h3>May 10, 10:00am-11:30am - Computer Coaching</h3>
+  <p>Guided instruction in how to use computers.  Held in the Board Room.</p>
 
-<h3>Test Event Three</h3>
-<p>Less a testing event, more a god.</p>
+  <h3>May 11, 6:00pm-7:30pm - Computer Coaching</h3>
+  <p>Guided instruction in how to use computers.  Held in the Board Room.</p>
 
-<h3>Test Event Omega</h3>
-<p>Now let&apos;s try one with a little more text.  The atmosphere of the earth, we now know, contains far more oxygen or far less argon (whichever way one likes to put it) than does Mars. The invigorating influences of this excess of oxygen upon the Martians indisputably did much to counterbalance the increased weight of their bodies.  And, in the second place, we all overlooked the fact that such mechanical intelligence as the
-</ul>
+  <h3>May 12, 1:00am-2:30pm - Computer Coaching</h3>
+  <p>Guided instruction in how to use computers.  Held in the Board Room.</p>
+
+  <h3>May 18, 4:00pm - Board Meeting</h3>
+  <p>Meeting of the library board of trustees. Open to the public.  Held in the Board Room.
 </section> <!-- end upcoming-events -->
 <section id="calendar">
 <h2>Calendar</h2>

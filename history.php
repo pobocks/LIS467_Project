@@ -3,20 +3,20 @@
    $section='About Us';
    include 'header.php';
 ?>
-    <div id="wrap">
-    <section id="timelinelinks">
     
-<h1>T. B. SCOTT FREE LIBRARY:  HISTORICAL OUTLINE</h1>
-<ul>
-<li><a href="#1800">1800s: The beginning of T. B. Scott Library</a></li>
-<li><a href="#1900">1900 - 1959: Becoming a Carnegie Library</a></li> 
-<li><a href="#1960">1960 - 1999: Leaderships and Awards</a></li>
-<li><a href="#2000">2000 - today: Restoration and modernization</a></li>
-</ul>
-</section>
+
 
 <section id="timeline">
-<h2>&nbsp;<a name="1800"><b><u>1800s: The beginning of T. B. Scott Library</u></b></a></h2>
+<h2>T. B. SCOTT FREE LIBRARY:  HISTORICAL OUTLINE</h2>
+
+<ul id="timelinelinks">
+<li><a href="#1800">1800s</a></li>
+<li><a href="#1900">1900 - 1959</a></li> 
+<li><a href="#1960">1960 - 1999</a></li>
+<li><a href="#2000">2000 - today</a></li>
+</ul>
+
+<h3><a id="1800"><b>1800s: The beginning of T. B. Scott Library</b></a></h3>
 
 <div><b>1886</b></div>
 <div> T. B. Scott, lumberman, state Senator, and first mayor of Merrill dies.     Scott wills $10,000 to the city to found a free public library,  contingent upon the City’s provision of “suitable quarters” for the library  within five years.</div>   
@@ -33,7 +33,7 @@
 <div><b>1899</b></div>   
 <div>Classification of books changed from a “good ordinary classification”  to the Dewey Decimal system.</div>      
 
-<h2>&nbsp;<a name="1900"><b><u>1900-1959: Becoming a Carnegie Library</u></b></a></h2>
+<h3><a name="1900"><b>1900-1959: Becoming a Carnegie Library</b></a></h3>
 
 <div><b>1900</b></div>
 <div>Librarian authorized to maintain open shelves “to give the public opportunities to select their books by examination of them on the shelves.”</div>
@@ -89,7 +89,7 @@
 <div><b>1959</b></div>
 <div>The library wins a John Cotton Dana Honorable Mention Award for its  comprehensive, outstanding and original methods of service. [An American Library Association Award sponsored by the H. W. Wilson Co.]  </div>
 
-<h2>&nbsp;<a name="1960"><b><u>1960 - 1999: Leaderships and Awards</u></b></a></h2>
+<h3><a name="1960"><b>1960 - 1999: Leaderships and Awards</b></a></h3>
 
 <div><b>1961</b></div>
 <div>The library begins participation in Project 6, a federally funded demonstration project of the Wisconsin Free Library Commission and the public libraries of Florence, Forest, Langlade, Lincoln, Oneida, and Vilas counties.  The project strengthens the collections of established libraries and uses a bookmobile to provide service to areas where there is no public library.</div>
@@ -173,7 +173,7 @@ Outreach Extension Service for the homebound, elderly and handicapped begins, fu
 <div>Fundraising for a library building project begins.</div>
 <div>Friends of T. B. Scott Library organized.</div>
 
-<h2>&nbsp;<a name="2000"><b><u>2000 - today: Restoration and modernization</u></b></a></h2>
+<h3><a name="2000"><b>2000 - today: Restoration and modernization</b></a></h3>
 
 <div><b>2000</b> </div>
 <div>Second referendum on the proposed library building project passes.
@@ -202,32 +202,37 @@ Library moved into temporary quarters at the former Fox Point factory, 1905 E. 1
 <div><b>2011</b></div>
 <div>All year celebration of the 100th anniversary of the Carnegie Building.</div>
 </section> <!--end timeline -->
-</div> <!--end wrap content -->
 
-<div id="imgwrap">
+
+
 <section id="images">
-
+<!-- EXAMPLE! WHOAH!!! 
+<ul>
+<li>
+<img ...>
+<p>CAPTION</p>
+</li>
+</ul>
+-->
 <p>
-<img src="i/PCMerrill.jpg" width="300" height="200"  alt=" Historic postcard of the 1911 Carnegie Library."/>
+<img src="i/PCMerrill.jpg" class="featured-image"  width="300" height="200"  alt=" Historic postcard of the 1911 Carnegie Library."/>
 Historic postcard of the 1911 Carnegie Library.</p>
 
-<img src="i/librarycard2.jpg" width="300" height="200"  alt=" Historic postcard of the T. B. Scott Library."/>
+<img src="i/librarycard2.jpg" class="featured-image" width="300" height="200"  alt=" Historic postcard of the T. B. Scott Library."/>
 Historic postcard of the T. B. Scott Library .</p>
 
-<p><img src="i/librar1.jpg" width="300" height="200" alt="Photo of T. B Scott Library taken by Dr. Lewinnek the fall of 1999, before construction started on the 2000 addition."/>
+<p><img src="i/librar1.jpg" class="featured-image" width="300" height="200" alt="Photo of T. B Scott Library taken by Dr. Lewinnek the fall of 1999, before construction started on the 2000 addition."/>
 T. B Scott Library, the fall of 1999, before construction started on the 2000 addition.
 </p>
 
-<p><img src="i/tbscottfront.JPG" width="300" height="200" alt="Photo of the T. B Scott Library sign and front entrance, taken by Cressida Hanson."/>
+<p><img src="i/tbscottfront.JPG" class="featured-image" width="300" height="200" alt="Photo of the T. B Scott Library sign and front entrance, taken by Cressida Hanson."/>
 2007 photo of the T. B Scott Library front entrance sign.
 </p>
 
-<p><img src="i/tbscottriver.JPG" width="300" height="200" alt="Photo of the T. B Scott Library from across the river, taken by Cressida Hanson."/>
+<p><img src="i/tbscottriver.JPG" class="featured-image" width="300" height="200" alt="Photo of the T. B Scott Library from across the river, taken by Cressida Hanson."/>
 The library, as seen from across the river. 
 </p>
-
-
-</div> <!--end img wrap -->
+</section>
 
 
   <?php include 'footer.php'; ?>

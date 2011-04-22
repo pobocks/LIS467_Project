@@ -3,6 +3,8 @@ $title = 'Your library since 1891';
 $section = '';
 include 'header.php'; ?>
 
-<!-- CONTENT GOES HERE! -->
+<section id="picture-view">
+
+</section>
 
 <?php include 'footer.php'; ?>

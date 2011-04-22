@@ -6,6 +6,9 @@
 <link rel="stylesheet" media="screen" href="c/reset.css" />
 <link rel="stylesheet" media="screen" href="c/screen.css" />
    <title>T. B. Scott Library | <?php echo $title; ?></title>
+   <!-- This script was used to enable HTML5 elements to display properly in older browsers.  It relies on Javascript,
+   unlike using divs inside of HTML5 elements; however, as the T. B. Scott&apos;s  computers all have javascript enabled,
+   this was considered a reasonable trade off for cleaner HTML -->
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -16,15 +19,15 @@
 <div id="function-links">
 
 <ul>
-   <li>Hours/Directions/Contact Us</li>
-   <li>Get a Library Card</li>
-   <li>Calendar</li>
-   <li>Home</li>
+   <li><a href="index.php">Home</a></li>
+   <li><a href="calendar.php">Calendar</a></li>
+   <li><a href="get_a_card.php">Get a Library Card</a></li>
+   <li><a href="hours_directions_contact.php">Hours/Directions/Contact Us</a></li>
    </ul> 
 </div> <!-- end function-links -->  
   <header>
-  <hgroup><h1 id="site-title">T. B. Scott Free Library</h1>
-   <h2 id="site-subtitle"><?php echo $title; ?></h2></hgroup>
+  <hgroup><a href="index.php"><h1 id="site-title">T. B. Scott Free Library</h1>
+   <h2 id="site-subtitle"><?php echo $title; ?></h2></a></hgroup>
   </header>
   <nav id="primary-nav">
    <ul>

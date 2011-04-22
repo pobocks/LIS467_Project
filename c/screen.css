@@ -23,18 +23,23 @@ body {
 
 #function-links ul { 
                   font-family: Georgia, serif;
-                  color:black; 
-                  font-size: 1.3em;
+                  font-size: 1.5em;
                   list-style-type:none;
                   display:block;
+                  float:right;
 }
 
 #function-links ul li{ display:inline;
-                        float:right;
-                        color: green;
-                        padding-top:0.1em;
+                        padding-top:0.2em;
+                        padding-bottom: 0.2em;
                         margin-right:1em;
 }
+
+#function-links ul li a { 
+                          color: green;
+                          text-decoration: none;
+                          outline:none;
+ }
 
 header {
          margin:0 auto;
@@ -63,6 +68,12 @@ header h1#site-title {
                        padding-left: 150px;
                        font-size: 5em;
 }
+
+header hgroup a { 
+           text-decoration: none;
+           color:white;
+           display:block;
+ }
 
 header h2#site-subtitle { 
                           display:inline;
@@ -184,6 +195,7 @@ nav#primary-nav li:hover ul li:last-child {
 
 section {         
           font-size:1.4em;
+          padding-bottom: 1em;
 }
 
 section h2 { 
@@ -226,6 +238,19 @@ footer p {
            padding-top:0.8em;
  }
 
+/**************************************
+ * Styles for: Home Page -> index.php *
+ **************************************/
+
+#picture-view { 
+                margin: 0 auto;
+                margin-left:5%;
+                margin-right:5%;
+                margin-bottom: 0.5em;
+                background-color: #F1EDC2;
+                padding:1%;
+                padding-bottom: 1.5em;
+ }
 
 /**********************************************************
  * Styles for: Hours/Directions/Contact Us -> contact.php *
@@ -329,7 +354,6 @@ height:auto;
 	padding-left:1%;
 	padding-right:1%;
         float:left;
-        background-color: #F1EDC2;
 }
 
 #membership ul { 
@@ -389,7 +413,6 @@ section#beyondbooks img{
         float:left;
 	 margin-left:5%;
 	 margin-right:3%;
-      background-color: #F1EDC2; 
          line-height:130%;
 	 padding-left:1%;
 	 padding-right:1%;
@@ -410,19 +433,11 @@ section#beyondbooks img{
 }
 
 
-section#artpictures hr{
-    text-align: center;
-    border: 0;
-    width: 103%;
-    background-color: #8B0000;
-    height: .2em;		
-    margin-bottom: .4em;	
-    margin-top: .4em;	
-}
 
 section#beyondbooks ul{
-    list-style-image: url('../i/redsquare.gif');
     margin-left: .7em;
+    list-style-type:circle;
+/*    text-indent: -1em;*/
 }
 
 /******************************************
@@ -452,6 +467,7 @@ section#wordsworthhearing blockquote{
 }
 
 
+
 #wordsworthhearing{  
                     width:60%;
                     float:left;
@@ -460,45 +476,41 @@ section#wordsworthhearing blockquote{
                     margin-right:2%;
                     padding-left: 2%;
                     padding-right: 2%;
-                    background-color: #F1EDC2;         
 }
 
 /**********************************************
  * Styles for: Library History -> history.php *
  **********************************************/
 
-                     
-#wrap {
-        float:left;
-        margin-left:3%;
-        width:60%;
-}
-
-#timelinelinks {
-                 float:left;
-                 margin-left:3%; 
-                 margin-bottom:1%;
-}
-
-
-#timelinelinks ul li { 
-                 margin-bottom:1%;
-                 line-height: 1em;
+ul#timelinelinks { 
+                   display:block;
+                   padding:1em;
+ }
+ ul#timelinelinks li {
+                       display:inline-block;
+                       margin-right:2em;
+                       line-height: 1em;
+                       font-size: 1em;
  }
 
 
-#timeline h2 {
-			padding-top:1.25%;
-}
+#timeline { float: left;
+            margin-left: 5%;
+            margin-right:2%;
+            padding-left: 1%;
+            padding-right:1%;
+            width:60%;}
+
+#timeline h3 a { text-decoration:none;}
 
 #timeline div {
 			padding-top:.75%;
 }
 
-#imgwrap {
-			float:left;
-			margin-left:5%;
-			width:18%;
+#images {
+			float:right;
+			margin-right:5%;
+			width:25%;
 }
 
 /**********************************************************
@@ -507,21 +519,20 @@ section#wordsworthhearing blockquote{
 
 
 #librarycard { 
-       margin-left:4%;
+       margin-left:5%;
        margin-right:2%;
        padding-top:0;
-       font-size:1.25em;
-       background: white;
-       font-family: Helvetica, Arial, sans-serif;
+       width: 60%;
+       float:left;
 }
 
-#librarycard h2 {
-		padding-top:1.25%;
-}
-
-#imgwrap p {
-		 font-size:1.2em;
-		
+#card_images { 
+               float: right;
+               margin-right:5%;
+               width: 25%;
+ }
+#card_images p {
+		 font-size:1em;
 }		
 		
 		

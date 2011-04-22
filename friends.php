@@ -64,7 +64,7 @@ Stacy Stevens
   <p><strong>Cover To Cover:</strong> A library sponsored book discussion group meets monthly on the third Thursday at 1:00 pm in the Community Roam of the Library.</p>
 </li>
 <li>
-<img src="i/perry.jpg" width="80" height="68" alt="author" class="featured-image" />
+<img src="i/perry.jpg" width="80" height="68" alt="author image" class="featured-image" />
   <p><strong>Meet an Author:</strong> Michael Perry,  humorist,  best selling author, and popular guest on Wisconsin Public Radio and Televsion will be coming to Merrill. The program will be at Parier Middle School on May 2nd. <a href="http://www.sneezingcow.com/" target="_blank">Visit his website!</a></p>
 </li>
 </ul>
@@ -90,7 +90,7 @@ Stacy Stevens
 
 
 <h3>Mission</h3>
-<img src="i/filler_image.jpg" width="300" height="130" alt="Friends of the Library picture" class="featured-image" />
+<img src="i/filler_image.jpg" width="300" height="130" alt="Friends of the Library group picture" class="featured-image" />
 <p> The Friends of the T. B. Scott Merrill Public Library is a volunteer organization established to support the Merrill library in developing its facilities and services for the community, to encourage gifts and bequests to the library, and to stimulate support and use of the library.</p>
 <p> We promote knowledge of the function, services, resources and needs of the library - all the while enjoying the fellowship of the Library Friends.</p>
 <h3>Purpose</h3>

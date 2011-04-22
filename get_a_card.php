@@ -3,7 +3,6 @@
    $section='My Services';
    include 'header.php';
 ?>
-    <div id="wrap">
 
 <section id="librarycard">
 <h2>How to Get a Library Card (Adults)</h2>
@@ -22,9 +21,8 @@
 
 
 </section>
-</div>
-<div id="imgwrap">
-<p><img src="i/computerroom.jpg" width="300" height="200" alt="Photo of the T. B Scott Computer Room, which is on the third floor." />
+<section id="card_images">
+     <p><img src="i/computerroom.jpg" class="featured-image" width="300" height="200" alt="Photo of the T. B Scott Computer Room, which is on the third floor." />
 Third-floor Computer Area</p>
-</div>
+</section>
   <?php include 'footer.php'; ?>
