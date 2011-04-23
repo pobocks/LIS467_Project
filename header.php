@@ -11,7 +11,9 @@
    this was considered a reasonable trade off for cleaner HTML -->
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="j/css3-mediaqueries.js"></script>
 <![endif]-->
+
 </head>
 
 <body>
