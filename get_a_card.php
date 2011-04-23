@@ -1,4 +1,4 @@
-<?php
+d<?php
    $title='Get a Library Card';
    $section='My Services';
    include 'header.php';
@@ -21,8 +21,13 @@
 
 
 </section>
+
 <section id="card_images">
-     <p><img src="i/computerroom.jpg" class="featured-image" width="300" height="200" alt="Photo of the T. B Scott Computer Room, which is on the third floor." />
-Third-floor Computer Area</p>
+<ul>
+<li><img src="i/computerroom.jpg" class="featured-image" width="300" height="200" alt="Photo of the T. B Scott Computer Room, which is on the third floor." /></li>
+</ul>
+<ul>
+<li><img src="i/circdesk.jpg" class="featured-image" width="300" height="200" alt="Photo of library circulation desk." /></li>
+</ul>
 </section>
   <?php include 'footer.php'; ?>

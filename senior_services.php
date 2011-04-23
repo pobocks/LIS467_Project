@@ -17,11 +17,13 @@
 <h2>Computer Coaching</h2>  
 <p>Get help with Internet, email, hardware and software at your pace. 
 Computer Coaching happens Tuesday, Wednesday, and Thursday, of the second full week of every month.</p>
+
 <ul id="computercoaching">
 <li>Tuesdays, 10:00 - 11:30 am</li>
 <li>Wednesdays, 6:00 - 7:30 pm</li>
 <li>Thursday, 1:00 - 2:30 pm</li>
 </ul>
+
 <p>Since seating is limited, registration is recommended but not necessary; call (715) 536-7191 to reserve a seat or stop at the Adult Reference Desk on the 3rd floor. There is no cost to participate. Beginners especially welcome.</p>
 
 
@@ -83,7 +85,7 @@ Computer Coaching happens Tuesday, Wednesday, and Thursday, of the second full w
 <h3>Travel</h3>
 <li><a href="http://www.amtrak.com/servlet/ContentServer?c=Page&pagename=am%2FLayout&cid=1241305460008">Amtrak Senior Citizen Discount</a></li> 
 
-<li><a href="http://www.roadscholar.org/default.asp">Road Scholar</a> - Educational Travel and Learning Vacations for Adults (previous "Elderhostel")</li> 
+<li><a href="http://www.roadscholar.org/default.asp">Road Scholar</a> - Educational Travel and Learning Vacations for Adults (previously "Elderhostel")</li> 
 
 <li><a href="http://www.nhtsa.gov/people/injury/olddrive/OlderAdultswebsite/index.html">Safe Driving for Seniors </a></li> 
 
