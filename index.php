@@ -6,7 +6,7 @@ include 'header.php'; ?>
 <section id="picture-view">
 <h2>Welcome to the T. B. Scott!</h2>
 <div id="pane">
-  <img id="home-page-picture" src="i/PCMerrill.jpg" width="500px" alt="A postcard, displaying the exterior of the T. B. Scott Library."  />
+  <img id="home-page-picture" src="i/PCMerrill.jpg" width="500" alt="A postcard, displaying the exterior of the T. B. Scott Library."  />
 <p id="home-page-caption">A postcard, displaying the exterior of the T. B. Scott Library.</p>
 <ul><li><button onClick='displayOne();'>Pic 1</button></li>
 <li><button onClick='displayTwo();'>Pic 2</button></li>
