@@ -28,8 +28,8 @@
    </ul> 
 </div> <!-- end function-links -->  
   <header>
-  <hgroup><a href="index.php"><h1 id="site-title">T. B. Scott Free Library</h1>
-   <h2 id="site-subtitle"><?php echo $title; ?></h2></a></hgroup>
+  <a href="index.php"><hgroup><h1 id="site-title">T. B. Scott Free Library</h1>
+   <h2 id="site-subtitle"><?php echo $title; ?></h2></hgroup></a>
   </header>
   <nav id="primary-nav">
    <ul>

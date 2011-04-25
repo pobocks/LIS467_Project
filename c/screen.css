@@ -69,7 +69,7 @@ header h1#site-title {
                        font-size: 5em;
 }
 
-header hgroup a { 
+header a { 
            text-decoration: none;
            color:white;
            display:block;
