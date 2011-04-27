@@ -28,7 +28,7 @@ include 'header.php'; ?>
 
 <section id="contact">
 <h2>Contact Us</h2>
-  <p>You can reach the T. B. Scott Library by telephone, fax, mail, or by emailing our direction, Stacy Stevens.</p>
+  <p>You can reach the T. B. Scott Library by telephone, fax, mail, or by emailing the Library Director, Stacy Stevens.</p>
 <h3>Telephone</h3>
   <p>(715) 536 - 7191</p>
 <h3>Fax Machine</h3>
