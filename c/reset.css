@@ -36,6 +36,11 @@ footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
+address { 
+          text-decoration:none;
+          font-style: normal;
+ }
+
 ul {
     list-style:none;
 }

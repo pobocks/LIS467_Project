@@ -1,6 +1,7 @@
 /***********************
  * Generic Page Styles *
  ***********************/
+
 html, body { 
              height:100%; 
 }
@@ -236,10 +237,11 @@ footer {
          -moz-border-radius:7px;
 }
 
-footer p { 
+footer p, footer address { 
            font-size:1.6em;
            padding-top:0.8em;
  }
+
 
 /**************************************
  * Styles for: Home Page -> index.php *
