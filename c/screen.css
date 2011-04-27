@@ -417,6 +417,34 @@ iframe#googlecal {
     margin-bottom:1em;
 }
 
+/************************
+ * People -> people.php *
+ ************************/
+
+#staff { 
+         float: left;
+         margin-left: 5%;
+         width: 43%;
+         overflow:hidden;
+ }
+
+#staff ul li h3, #board ul li h3 { 
+                  margin-top:1em;
+ }
+
+#staff ul li ul, #board ul li ul { 
+                  margin-left: 6%;
+ }
+
+#staff ul li ul li, #board ul li ul li { 
+                  margin-bottom: 0.2em;
+}
+
+#board { float:right;
+         margin-right:5%;
+         width: 43%;
+}
+
 /*********************************
  * Spread Across Jocelyn's Pages *
  *********************************/
@@ -523,7 +551,6 @@ section#beyondbooks img{
 section#beyondbooks ul{
     margin-left: .7em;
     list-style-type:circle;
-/*    text-indent: -1em;*/
 }
 
 /******************************************
@@ -629,7 +656,7 @@ ul#timelinelinks {
 		
 		
 /**********************************************************
- * Styles for: Senior Services -> contact.php *
+ * Styles for: Senior Services -> senior_services.php *
  **********************************************************/
  
 #seniors { 

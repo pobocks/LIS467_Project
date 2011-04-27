@@ -34,7 +34,7 @@
 <p>Classification of books changed from a “good ordinary classification”  to the Dewey Decimal system.</p>      
 
 
-<h3><a name="1900">1900-1959: Becoming a Carnegie Library</a></h3>
+<h3><a id="1900">1900-1959: Becoming a Carnegie Library</a></h3>
 
 <h4>1900</h4>
 <p>Librarian authorized to maintain open shelves “to give the public opportunities to select their books by examination of them on the shelves.”</p>
@@ -92,7 +92,7 @@
 
 <p><a href="#timelinetop">Back to top</a></p>
 
-<h3><a name="1960">1960 - 1999: Leaderships and Awards</a></h3>
+<h3><a id="1960">1960 - 1999: Leaderships and Awards</a></h3>
 
 <h4>1961</h4>
 <p>The library begins participation in Project 6, a federally funded demonstration project of the Wisconsin Free Library Commission and the public libraries of Florence, Forest, Langlade, Lincoln, Oneida, and Vilas counties.  The project strengthens the collections of established libraries and uses a bookmobile to provide service to areas where there is no public library.</p>
@@ -178,7 +178,7 @@ Outreach Extension Service for the homebound, elderly and handicapped begins, fu
 
 <p><a href="#timelinetop">Back to top</a></p>
 
-<h3><a name="2000">2000 - today: Restoration and modernization</a></h3>
+<h3><a id="2000">2000 - today: Restoration and modernization</a></h3>
 
 <h4>2000</h4>
 <p>Second referendum on the proposed library building project passes.

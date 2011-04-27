@@ -5,7 +5,7 @@
 <link rel="icon" href="i/favicon.ico" />
 <link rel="stylesheet" media="screen" href="c/reset.css" />
 <link rel="stylesheet" media="screen" href="c/screen.css" />
-   <title>T. B. Scott Library | <?php echo $title; ?></title>
+   <title>T. B. Scott Library | Merrill, WI | <?php echo $title; ?></title>
    <!-- This script was used to enable HTML5 elements to display properly in older browsers.  It relies on Javascript,
    unlike using divs inside of HTML5 elements; however, as the T. B. Scott&apos;s  computers all have javascript enabled,
    this was considered a reasonable trade off for cleaner HTML -->
