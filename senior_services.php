@@ -29,13 +29,13 @@ Computer Coaching happens Tuesday, Wednesday, and Thursday, of the second full w
 
 
 <h2> Useful Websites for Seniors</h2>
-<ul id="seniorlinks">
-
 <h3>Computers &amp; Technology</h3>
+<ul class="seniorlinks">
 <li><a href="http://www.seniornet.org/">SeniorNet</a> - Providing older adults education for and access to computer technologies</li> 
-<li><a href="http://www.seniornet.org/howto/mouseexercises/mousepractice.html"> Seniornet Mouse practice </a></li>
+<li><a href="http://www.seniornet.org/howto/mouseexercises/mousepractice.html"> Seniornet Mouse practice </a></li></ul>
 
 <h3>Health</h3>
+<ul class="seniorlinks">
 <li><a href="http://www.aoa.gov/AoARoot/AoA_Programs/Elder_Rights/index.aspx">Elder Rights Protection</a></li>
 
 <li><a href="http://www.nlm.nih.gov/medlineplus/">MEDLINEplus</a> - Health Information from the National Library of Medicine</li>
@@ -46,43 +46,35 @@ Computer Coaching happens Tuesday, Wednesday, and Thursday, of the second full w
 
 <li><a href="http://win.niddk.nih.gov/publications/young_heart.htm">Young At Heart : Tips on Eating Healthy and Exercising</a></li>
 
-<li><a href="http://www.webmd.com/">WedMD</a></li>
+<li><a href="http://www.webmd.com/">WedMD</a></li></ul>
 
 
 <h3>Jobs &amp; Volunteering</h3>
+<ul class="seniorlinks">
 <li><a href=http://www.aarp.org/work/employee-benefits/info-04-2010/national_employer_team.html> AARP National Employer Team</a></li>
 <li><a href="http://www.retirementjobs.com/">Retirement Jobs</a></li>
 <li><a href="http://www.seniorcorps.org/rsvp/">Senior Corps</a> </li>
 <li><a href="http://www.seniorserviceamerica.org/site/index.html">Senior Service America</a> </li>
-<li><a href="http://www.volunteer.va.gov/">Veterans Voluntary Service</a> </li>
+<li><a href="http://www.volunteer.va.gov/">Veterans Voluntary Service</a> </li></ul>
 
 
 
 <h3>Government</h3>
-
+<ul class="seniorlinks">
 <li><a href="http://www.aarp.org/"> American Association of Retired Persons (AARP) </a> </li>
 <li><a href="http://www.dhs.wisconsin.gov/aging/contacts/aging_offices/lincoln.htm"> Advance Directives</a> - Living Wills and Power of Attorney forms, free from the State of Wisconsin.</li>
-
 <li><a href="http://www.idtheftcenter.org/"> Identity Theft Resource Center </a> </li>
-
 <li><a href="http://www.dhs.wisconsin.gov/forms/AdvDirectives/index.htm"> Lincoln County Commission on Aging</a></li>
-
 <li><a href="http://www.nia.nih.gov/"> National Institute on Aging</a></li>
-
-
-
 <li><a href="https://nocall.wisconsin.gov/web/home.asp">No Call List</a><li>
-
-
-
 <li><a href="http://www.ssa.gov/"> Social Security Administration</a></li>
-
 <li><a href="http://www.va.gov/"> U. S. Department of Veterans Affairs</a></li>
-<li><a href="http://wripa.org/"> Wisconsin Register in Probate Association</a></li>
+<li><a href="http://wripa.org/"> Wisconsin Register in Probate Association</a></li></ul>
 
 
 
 <h3>Travel</h3>
+<ul class="seniorlinks">
 <li><a href="http://www.amtrak.com/servlet/ContentServer?c=Page&pagename=am%2FLayout&cid=1241305460008">Amtrak Senior Citizen Discount</a></li> 
 
 <li><a href="http://www.roadscholar.org/default.asp">Road Scholar</a> - Educational Travel and Learning Vacations for Adults (previously "Elderhostel")</li> 

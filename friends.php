@@ -12,10 +12,10 @@ include 'header.php'; ?>
 <h3>Officers:</h3>
 
 <ul>
-<li>President: Donna Simek</li>
-<li>Vice President: Laurie Cottrell</li>
-<li>Treasurer: Larry Lebal</li>
-<li>Secretary: Judy Weaver </li>
+<li>Donna Simek, President</li>
+<li>Laurie Cottrell, Vice President</li>
+<li>Larry Lebal, Treasurer</li>
+<li>Judy Weaver, Secretary </li>
 </ul>
 
 
@@ -37,9 +37,9 @@ include 'header.php'; ?>
 
 
 <h3>Library Liaison:</h3>
-<p>
-Stacy Stevens
-</p>
+<ul>
+<li>Stacy Stevens</li>
+</ul>
 </section> <!-- end officers -->
 
 
@@ -56,7 +56,7 @@ Stacy Stevens
 </ul>
 
 <h3>Newsletter</h3>
-<p><a href="f/FEb11.pdf">February 2011 - Issued Quarterly</a> </p>
+<p><a href="f/FEb11.pdf" target="_blank">February 2011 - Issued Quarterly</a> </p>
 
 <h3>Upcoming Events</h3>
 <ul>
@@ -70,21 +70,21 @@ Stacy Stevens
 </ul>
 <h3>Past Events</h3>
   <p>March 8, 15, 22 (Tuesdays) 6:30pm. Joel Eldridge <strong>&quot;All About Trees: Selecting, Planting, and Maintaining&quot;.</strong></p>
-<p>Feb. 20 (Sunday) 1:00pm. Jane Deau<strong> "My Life's Journey,"</strong> a workshop devoted to capturing the essence of your loved ones thorugh journaling, photos, videos, and audio recordings.</p>
+<p>Feb. 20 (Sunday) 1:00pm. Jane Deau<b> "My Life's Journey,"</b> a workshop devoted to capturing the essence of your loved ones thorugh journaling, photos, videos, and audio recordings.</p>
 
 </section> <!-- end membership -->
 
 
 <section id="announcement">
 <h2>Announcements</h2>
-<h3>Booksales</h3>
+<h3>Book Sales</h3>
 <p>The Friends organization runs an ongoing, paperback-only, sale in the atrium of the library. Usually there is a special book sale twice a year.</p>
 <p>In 2010, The Friends of the Library donated over $4,000 of their proceeds from 3 book sales to the library. </p>
 
 
 <h3>Meetings</h3>
-<p><strong>Third Friday of the month at 9:45am in the Board Room.</strong> Open to the public. Join with others who support your public library! Assist with Book Sales &amp; other fundraising to help the library. LHelp publicize library events in the community by distributing flyers and posters.</p>
-<p><a href="">Become a Member!</a></p>
+<p><strong>Third Friday of the month at 9:45am in the Board Room.</strong> Open to the public. Join with others who support your public library! Assist with Book Sales &amp; other fundraising to help the library.</p>
+<p><a href="f/membership.pdf" target="_blank">Become a Member!</a></p>
 
 
 

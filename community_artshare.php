@@ -1,6 +1,6 @@
 
 <?php 
-$title = 'Community Artshare Merrill, WI';
+$title = 'Community Artshare';
 $section = 'Events';
 include 'header.php'; ?>
 
@@ -8,7 +8,7 @@ include 'header.php'; ?>
 <section id="exhibits">
 
 <h2>Current Exhibit</h2>  
-  <p><strong>2011 March-April</strong> MAPS High School Senior Students&apos; Art Exhibit featuring the paintings, drawings, ceramics, stained glass, 
+  <p><strong>2011 March/April</strong> MAPS High School Senior Students&apos; Art Exhibit featuring the paintings, drawings, ceramics, stained glass, 
 etchings and other artistic creations of the students of Linda DeBroux</p> 
 
 
@@ -18,7 +18,7 @@ etchings and other artistic creations of the students of Linda DeBroux</p>
 <p><b>2010 November/December</b> North Country Glimpse - Pastels by Andrea Fenner, Swallow Haven Studios </p>
 <p><b>2010 September/October</b> Inspired Art by Dan Szulczewski</p>
 <p><b>2010 July/August</b> Campbell Soup Collectibles from the collection of Marge Piikkila</p>
-<p><b>2010 May/June</b>Costume Jewelry & More of the 1930s, 40s, & 50s from the collection of Julie Davis. </p>
+<p><b>2010 May/June</b> Costume Jewelry &amp; More of the 1930s, 40s, &amp; 50s from the collection of Julie Davis. </p>
 <p><b>2010 March/April</b> National History Day Projects - Prairie River Middle School Students </p>
 <p><b>2010 February</b> Private collection of advertising items for the Leideger brewery, a local brewery no longer in existence.  </p>
 <p><b>2009/2010  December/January</b> Santas, Santas Everywhere - From a private collection of carved Santa figures. </p>
@@ -34,13 +34,12 @@ etchings and other artistic creations of the students of Linda DeBroux</p>
 
 <p><strong>Displays</strong> featuring one or more artists or collectors are <strong>featured</strong> each month on an ongoing basis. </p>
 
-
-								    <p>T.B. Scott Library&apos;s "Beyond Books: Community ArtShare" program is made possible by a &#36;10,000 grant from the <em> Mead Witter Foundation, Inc. </em></p>
+ <p>T.B. Scott Library&apos;s "Beyond Books: Community ArtShare" program is made possible by a &#36;10,000 grant from the <em> Mead Witter Foundation, Inc. </em></p>
 
 <img src="i/tb_art_11.jpg" width="240" height="180" alt="installing a sculpture" class="featured-image" />
 
 <h2>Interested in Showing Your Work?</h2>
-<p>Artists, artisans and collectors who are interested in sharing their works with the community should <b> contact Stacy Stevens, Library Director, at 715-536-7191 or <a href="mailto:stevens@wvls.lib.wi.us" target="_blank">stevens@wvls.lib.wi.us </a> </b>.</p>
+<p>Artists, artisans and collectors who are interested in sharing their works with the community should <b> contact Stacy Stevens, Library Director, at 715-536-7191 or <a href="mailto:stevens@wvls.lib.wi.us" target="_blank">stevens@wvls.lib.wi.us </a> </b></p>
 
 <p>Interested exhibitors:</p> 
 <ul>

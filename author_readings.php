@@ -12,9 +12,9 @@ include 'header.php';
 <h2>Words Worth Hearing</h2>
 <blockquote>
 <p>"My task which I am trying to achieve is by the power of the written word, to make you hear, 
-to make you feel&#8722;it is, before all, to make you see. That&#8722;and no more, and it is everything."</p>
+to make you feel&#8722;it is, before all, to make you see. That&#8722;and no more, and it is everything." Joseph Conrad</p>
 </blockquote>
-<p>Conrad, Joseph</p>
+
 <h3>Michael Perry</h3> 
 <img src="i/perry4.jpg" width="150" height="150" align="left" alt="author image" class="featured-image" />
 <p><strong>May 2, 2011 7PM at Prairie River Middle School. Free Admission!</strong></p>

@@ -563,14 +563,14 @@ section#beyondbooks ul{
 
 
 
-section#contactforevent li{  
-                       line-height:130%; 
+section#contactforevent li{  line-height:130%;
+                        
     
 }
 
 
 section#wordsworthhearing blockquote{ 
-                                      color: #006400;
+                                      color:#555555 ;
                                       font-style:oblique;
                                       line-height:200%;
 }
@@ -603,13 +603,13 @@ ul#timelinelinks {
                    display:block;
                    padding-top:1em;
  }
+
  ul#timelinelinks li {
                        display:inline-block;
                        margin-right:2em;
                        line-height: 1em;
                        font-size: 1em;
  }
-
 
 #timeline { float: left;
             margin-left: 5%;
@@ -665,7 +665,7 @@ ul#timelinelinks {
  
 #seniors { 
        margin-left:5%;
-       margin-right:2%;
+       margin-right:5%;
        padding-top:0;
        font-size:1.25em;
        background: white;
@@ -677,12 +677,11 @@ ul#timelinelinks {
 		margin-bottom:0.7em;
 }
 
-#seniorlinks h3 {
+ul.seniorlinks h3 {
 		margin-top:2%;
 }
 
-
- ul#seniorlinks li {
-		margin-bottom:0.3em;
-        line-height:1.3em;
+ul.seniorlinks li {
+                     margin-bottom:0.3em;
+                     line-height:1.3em;
 }
