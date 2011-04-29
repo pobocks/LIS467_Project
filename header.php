@@ -19,7 +19,7 @@
 <body>
 <div id="non-footer">
 <div id="function-links">
-
+<a id='skip' href='#content' title='Skip Navigation'>Skip Navigation</a>
 <ul>
    <li><a href="index.php">Home</a></li>
    <li><a href="calendar.php">Calendar</a></li>

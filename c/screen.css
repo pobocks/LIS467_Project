@@ -19,6 +19,13 @@ body {
        min-width: 640px;
 }
 
+/* For accessibility - allows screen-readers to skip links */
+a#skip { height:0;
+         width:0;
+         visibility:hidden;
+         overflow:hidden;
+}
+
 #function-links { height:1.5em;
                   margin-right:2%; 
 }
