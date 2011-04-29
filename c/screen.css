@@ -300,39 +300,32 @@ footer p, footer address {
                            background-color:#444;
                     }
 
-#intro-text { 
+#news { 
               margin-right:5%;
               margin-left:5%;
               width: 45%;
               float:right;
 }
 
-#sitemap { 
+#news p.date {
+              text-indent:2%;
+              color:#666;
+              margin-bottom:0.4em;
+ }
+
+#news p:last-child{ 
+                    margin-bottom:0;
+ }
+
+#intro-text { 
            margin-right:5%;
            margin-left:5%;
            float:right;
            width: 45%;
-           margin-top: 1em;
  }
-
-#sitemap div.category { 
-                        display:block;
-                        float:left;
-                        margin: 1em;
-                        min-height:8em;
-                       }
-
-#sitemap ul li { 
-                 margin-bottom:0.2em;
- }
-
-#sitemap ul li a { 
-                   text-decoration:none;
-                   color:blue;
-}
 
 @media screen and (max-width:960px) { 
-  #sitemap { 
+  #intro-text { 
              width:90%;
              float:none;
              margin-right:5%;
@@ -383,6 +376,9 @@ footer p, footer address {
                  line-height: 1.3em;
  }
 
+#contact address { 
+                   line-height: 1.3em;
+}
 
 iframe#googlemap { 
                      width:98%;

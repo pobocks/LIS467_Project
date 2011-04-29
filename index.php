@@ -15,73 +15,23 @@ include 'header.php'; ?>
 </ul>
 </div> <!-- end pane -->
 </section> <!-- end picture-view -->
+<section id='news'>
+<h2>Library News</h2>
+
+<h3>T. B. Scott Gets Fabulous New Webpage</h3>
+<p class='date'>Friday, April 29, 2011</p>
+<p>A band of intrepid heroes of myth and legend have crafted a new webpage for the T. B. Scott Library, presumably out of the hairs from unicorn manes, the gossamer feathers of the bashful hippogriff, and web standards.</p>
+<h3>Werewolves Loose in T. B. Scott</h3>
+<p class='date'>Thursday, April 25, 2011</p>
+<p>A trio of terrifying beasts of the night were discovered in the stacks, rampaging throgh fiction from C-D to Q-R.  Officers from the B.P.R.D. were soon dispatched, and ended the terrible nightmare with a silver bullet.</p> 
+</section> <!-- end news -->
+
 <section id="intro-text">
 <h2>Who We Are</h2>
   <p>Welcome to T. B. Scott Free Library, Merrill&apos;s public library since 1891. Two-time &quot;Wisconsin’s Library of the Year&quot; Award Winner (2002, 1977), T.B. Scott Library is a member of the Wisconsin Valley Library Service (WVLS).</p>
 
 <p>Established by a $10,000 bequest from lumberman and former state legislator Thomas Blythe Scott, the Merrill library opened in March 1891. The library was among the first twenty public libraries in the state, was one of the original Carnegie Foundation grant recipients and is listed on the National Register of Historic Places. 2011 marks the 100th anniversary of the Carnegie Building.</p>
 </section> <!-- end intro-text -->
-<section id="sitemap">
-<h2>Sitemap</h2>
-  <div class="category">
-   <h3>Books/Music/Movies</h3>
-   <ul>
-<li><a href="http://vcat.wvls.lib.wi.us/ipac20/ipac.jsp?session=1M55DH3117252.23506&amp;profile=mer--5&amp;menu=search&amp;ts=1255013119707#focus">Catalog</a></li>
-<li><a href="">e-Books</a></li>
-<li><a href="">Borrow from Other Libraries</a></li>
-<li><a href="">Magazines &amp; Newspapers</a></li>
-<li><a href="">Reading Recommendations</a></li>
-</ul>
-</div>
-<div class="category">
-<h3>My Services</h3>
-<ul>
-<li><a href="get_a_card.php">Get a Library Card</a></li>
-<li><a href="senior_services.php">Senior Services</a></li>
-<li><a href="">Reserve Meeting Rooms</a></li>
-</ul>
-</div>
-<div class="category">
-<h3>Youth/Family</h3>
-<ul>
-<li><a href="">Teens</a></li>
-<li><a href="">Children &amp; Families</a></li>
-<li><a href="">Children&apos;s Storytime</a></li>
-</ul>
-</div>
-<div class="category">
-<h3>Events</h3>
-<ul>
-<li><a href="calendar.php">Calendar</a></li>
-<li><a href="author_readings.php">Author Readings</a></li>
-<li><a href="community_artshare.php">Community Artshare</a></li>
-<li><a href="">Children&apos;s Storytime</a></li>
-</ul>
-</div>
-<div class="category">
-<h3>Research</h3>
-<ul>
-<li><a href="">Ask a Librarian</a></li>
-<li><a href="">Genealogy &amp; Local History</a></li>
-<li><a href="">Health Resources</a></li>
-<li><a href="">Government Information</a></li>
-<li><a href="">Financial Resources</a></li>
-<li><a href="">Career Resources</a></li>
-</ul>
-</div>
-<div class="category">
-<h3>About Us</h3>
-<ul>
-<li><a href="history.php">Library History</a></li>
-<li><a href="people.php">People</a></li>
-<li><a href="">Jobs</a></li>
-<li><a href="">Volunteer</a></li>
-<li><a href="friends.php">Friends of the Library</a></li>
-<li><a href="">Memorials and Donations</a></li>
-<li><a href="hours_directions_contact.php">Hours/Directions/Contact Us</a></li>
-</ul>
-</div>
-</section> <!-- end sitemap -->
 <script>
 function displayOne(){
   document.getElementById('home-page-picture').src = 'i/PCMerrill.jpg';
